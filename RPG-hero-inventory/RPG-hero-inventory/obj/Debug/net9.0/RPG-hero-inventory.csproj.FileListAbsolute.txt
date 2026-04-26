@@ -1,0 +1,14 @@
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/bin/Debug/net9.0/RPG-hero-inventory
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/bin/Debug/net9.0/RPG-hero-inventory.deps.json
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/bin/Debug/net9.0/RPG-hero-inventory.runtimeconfig.json
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/bin/Debug/net9.0/RPG-hero-inventory.dll
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/bin/Debug/net9.0/RPG-hero-inventory.pdb
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/RPG-hero-inventory.GeneratedMSBuildEditorConfig.editorconfig
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/RPG-hero-inventory.AssemblyInfoInputs.cache
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/RPG-hero-inventory.AssemblyInfo.cs
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/RPG-hero-inventory.csproj.CoreCompileInputs.cache
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/RPG-hero-inventory.dll
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/refint/RPG-hero-inventory.dll
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/RPG-hero-inventory.pdb
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/RPG-hero-inventory.genruntimeconfig.cache
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/ref/RPG-hero-inventory.dll
