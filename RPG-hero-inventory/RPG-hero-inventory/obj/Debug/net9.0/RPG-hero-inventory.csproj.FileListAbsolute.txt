@@ -12,3 +12,4 @@
 /Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/RPG-hero-inventory.pdb
 /Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/RPG-hero-inventory.genruntimeconfig.cache
 /Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/ref/RPG-hero-inventory.dll
+/Users/anna/RiderProjects/RPG-hero-inventory/RPG-hero-inventory/RPG-hero-inventory/obj/Debug/net9.0/RPG-hero-inventory.sourcelink.json

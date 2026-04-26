@@ -1,6 +1,6 @@
 namespace RPG_hero_inventory;
 
-public abstract class Item
+public abstract class Item: IComparable<Item>
 {
     public string Name { get; set; }
     public decimal Weight { get; set; }
@@ -14,4 +14,9 @@ public abstract class Item
     }
 
     public abstract void Use(Hero hero);
+
+    public int CompareTo(Item? other)
+    {
+        return this.Rarity.CompareTo(other.Rarity);
+    }
 }

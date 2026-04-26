@@ -2,6 +2,7 @@ namespace RPG_hero_inventory;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public class Inventory<T> : IEnumerable<T> where T : Item
 {
@@ -31,7 +32,7 @@ public class Inventory<T> : IEnumerable<T> where T : Item
         _items.Remove(item);
     }
 
-    public T GetBYName(string name)
+    public T GetByName(string name)
     {
         return _items.FirstOrDefault(i => i.Name == name);
     }
@@ -45,5 +46,8 @@ public class Inventory<T> : IEnumerable<T> where T : Item
     {
         return GetEnumerator();
     }
-    
+    public void SortByRarity()
+    {
+        _items.Sort();
+    }
 }

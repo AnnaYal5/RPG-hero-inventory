@@ -4,16 +4,28 @@ public class Program
 {
     static void Main()
     {
-        Hero hero = new Hero(10, 5, 2);
-            
-        Item sword = new Weapon("Sword", 5, Rarity.Common, 10);
-        Item armor = new Armor("Shield", 2, Rarity.Epic, 8);
-        Item potion = new Weapon("Health Potion", 5, Rarity.Common, 15);
+        var hero = new Hero(10, 5, 2);
+        var inventory = new Inventory<Item>(10);
 
-        sword.Use(hero);
-        armor.Use(hero);
-        potion.Use(hero);
-        
-        Console.WriteLine($"HP: {hero.HP}, Attack: {hero.Attack}, Defense: {hero.Defense}");
+        var sword = new Weapon("Sword", 3, Rarity.Common, 5);
+        var armor = new Armor("Shield", 2, Rarity.Epic, 8);
+        var potion = new Potion("Potion", 1, Rarity.Common, 10);
+
+        inventory.Add(sword);
+        inventory.Add(armor);
+        inventory.Add(potion);
+
+        foreach (var item in inventory)
+        {
+            item.Use(hero);
+        }
+
+        inventory.SortByRarity();
+
+        Console.WriteLine("Після сортування:");
+        foreach (var item in inventory)
+        {
+            Console.WriteLine(item.Name + " - " + item.Rarity);
+        }
     }
 }
