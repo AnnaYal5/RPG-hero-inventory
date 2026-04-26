@@ -11,7 +11,15 @@ public class Potion: Item
 
     public override void Use(Hero hero)
     {
-        hero.HP += HealAmount;
-        Console.WriteLine($"{Name} - {HealAmount}");
+        
+
+        int oldHp = hero.HP;
+        hero.HP = Math.Min(hero.HP + HealAmount, hero.MaxHP);
+        Console.WriteLine($"{hero.Name} випив {Name}. HP: {oldHp} → {hero.HP}");
+
+    }
+    public override string ToString()
+    {
+        return $"[{Rarity}] {Name} (вага: {Weight}, +{HealAmount} HP)";
     }
 }

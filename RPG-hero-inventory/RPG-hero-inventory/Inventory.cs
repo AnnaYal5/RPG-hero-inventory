@@ -13,17 +13,18 @@ public class Inventory<T> : IEnumerable<T> where T : Item
     {
         _MaxWeight = maxWeight;
     }
-    private decimal CurrentWeight => _items.Sum(i => i.Weight);
+    public decimal CurrentWeight => _items.Sum(i => i.Weight);
 
     public void Add(T item)
     {
         if (CurrentWeight + item.Weight <= _MaxWeight)
         { 
             _items.Add(item);
+            Console.WriteLine($"{item.Name} додано в інвентар");
         }
         else
         {
-            Console.WriteLine($"вагу перевищено");
+            Console.WriteLine($"вагу перевищено  {{CurrentWeight}}/{{_MaxWeight}}");
         }
     }
 
@@ -32,7 +33,7 @@ public class Inventory<T> : IEnumerable<T> where T : Item
         _items.Remove(item);
     }
 
-    public T GetByName(string name)
+    public T? GetByName(string name)
     {
         return _items.FirstOrDefault(i => i.Name == name);
     }

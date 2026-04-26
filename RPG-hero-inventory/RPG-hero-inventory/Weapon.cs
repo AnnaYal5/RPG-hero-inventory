@@ -14,4 +14,8 @@ public class Weapon: Item
         hero.Attack += AttackBonus;
         Console.WriteLine($"{Name} - {AttackBonus}");
     }
+    public override string ToString()
+    {
+        return $"[{Rarity}] {Name} (вага: {Weight}, атака: +{AttackBonus})";
+    }
 }

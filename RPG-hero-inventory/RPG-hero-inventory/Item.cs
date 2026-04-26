@@ -15,8 +15,13 @@ public abstract class Item: IComparable<Item>
 
     public abstract void Use(Hero hero);
 
-    public int CompareTo(Item? other)
+    public int CompareTo(Item other)
     {
-        return this.Rarity.CompareTo(other.Rarity);
+        if (other == null) return 1;
+        return Rarity.CompareTo(other.Rarity);
+    }
+    public override string ToString()
+    {
+        return $"[{Rarity}] {Name} (вага: {Weight})";
     }
 }

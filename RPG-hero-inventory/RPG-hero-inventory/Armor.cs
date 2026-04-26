@@ -15,4 +15,9 @@ public class Armor: Item
         hero.Defense += DefenseBonus;
         Console.WriteLine($"{Name} - {DefenseBonus}");
     }
+    public override string ToString()
+    {
+        return $"[{Rarity}] {Name} (вага: {Weight}, захист: +{DefenseBonus})";
+    }
+    
 }
